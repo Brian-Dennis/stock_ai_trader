@@ -1,0 +1,22 @@
+2025-04-04 00:15:56,074 - __main__ - INFO - Starting trading system in paper_trade mode
+2025-04-04 00:15:56,074 - __main__ - INFO - Trading symbols: ['AAPL', 'GOOGL', 'TSLA']
+2025-04-04 00:15:56,074 - __main__ - INFO - Period: 1d, Interval: 5m
+2025-04-04 00:15:56,075 - paper_trading.simulator - INFO - Starting paper trading simulation...
+2025-04-04 00:15:56,854 - __main__ - INFO - Trading session completed successfully
+2025-04-04 00:18:06,890 - __main__ - INFO - Starting trading system in backtest mode
+2025-04-04 00:18:06,890 - __main__ - INFO - Trading symbols: ['AAPL', 'GOOGL', 'TSLA']
+2025-04-04 00:18:06,890 - __main__ - INFO - Period: 5d, Interval: 15m
+2025-04-04 00:18:06,891 - paper_trading.simulator - INFO - Starting paper trading simulation...
+2025-04-04 00:18:07,686 - __main__ - INFO - Trading session completed successfully
+2025-04-04 00:19:13,403 - __main__ - INFO - Starting trading system in backtest mode
+2025-04-04 00:19:13,403 - __main__ - INFO - Trading symbols: ['AAPL', 'GOOGL', 'TSLA']
+2025-04-04 00:19:13,403 - __main__ - INFO - Period: 5d, Interval: 15m
+2025-04-04 00:19:13,403 - paper_trading.simulator - INFO - Starting paper trading simulation...
+2025-04-04 00:19:13,659 - paper_trading.simulator - INFO - Trade executed: {'timestamp': datetime.datetime(2025, 4, 4, 0, 19, 13, 659598), 'symbol': 'AAPL', 'action': 'BUY', 'price': np.float64(221.22500610351562), 'quantity': 9, 'pnl': None, 'portfolio_value': np.float64(101991.02505493164)}
+2025-04-04 00:19:13,930 - __main__ - INFO - Trading session completed successfully
+2025-04-04 00:25:58,468 - __main__ - INFO - Starting trading system in paper_trade mode
+2025-04-04 00:25:58,468 - __main__ - INFO - Trading symbols: ['AAPL', 'MSFT', 'GOOGL']
+2025-04-04 00:25:58,468 - __main__ - INFO - Period: 5d, Interval: 15m
+2025-04-04 00:25:58,468 - paper_trading.simulator - INFO - Starting paper trading simulation...
+2025-04-04 00:25:58,760 - paper_trading.simulator - INFO - Trade executed: {'timestamp': datetime.datetime(2025, 4, 4, 0, 25, 58, 760945), 'symbol': 'AAPL', 'action': 'BUY', 'price': np.float64(221.22500610351562), 'quantity': 9, 'pnl': None, 'portfolio_value': np.float64(101991.02505493164)}
+2025-04-04 00:25:59,102 - __main__ - INFO - Trading session completed successfully
